@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/./Fonts/LeagueSpartan-Black.eot');
+    src: url('./Fonts/LeagueSpartan-Black.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-Black.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-Black.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-Bold.eot');
+    src: url('./Fonts/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-Bold.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-Bold.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-ExtraBold.eot');
+    src: url('./Fonts/LeagueSpartan-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-ExtraBold.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-ExtraBold.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-ExtraLight.eot');
+    src: url('./Fonts/LeagueSpartan-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-ExtraLight.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-ExtraLight.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-Light.eot');
+    src: url('./Fonts/LeagueSpartan-Light.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-Light.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-Light.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-Medium.eot');
+    src: url('./Fonts/LeagueSpartan-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-Medium.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-Medium.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-Regular.eot');
+    src: url('./Fonts/LeagueSpartan-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-Regular.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-Regular.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-SemiBold.eot');
+    src: url('./Fonts/LeagueSpartan-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-SemiBold.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-SemiBold.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./Fonts/LeagueSpartan-Thin.eot');
+    src: url('./Fonts/LeagueSpartan-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./Fonts/LeagueSpartan-Thin.woff2') format('woff2'),
+        url('./Fonts/LeagueSpartan-Thin.woff') format('woff'),
+        url('./Fonts/LeagueSpartan-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Core styles */
+body {
+    font-family: "League Spartan";
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Main section styles */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.main-section__intro {
+    max-width: 420px;
+    padding-left: 100px;
+}
+
+.main-section__intro h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 0;
+}
+
+.main-section__intro p {
+    padding-right: 1.5rem;
+    font-weight: 400;
+    color: hsl(300, 43%, 22%);
+    line-height: 20px;
+}
+
+.main-section__rates {
+    padding-top: 40px;
+    padding-right: 100px;
+    max-width: 450px;
+    
+}
+
+.main-section__rate {
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.main-section__rate > div {
+    display: inline-block;
+}
+
+.second {
+    translate: 40px;
+}
+
+.third {
+    translate: 80px;
+}
+.mb {
+    margin-bottom: 15px;
+}
+
+.main-section__rate i {
+    padding-right: 2px;
+    color:  hsl(49, 89%, 51%);
+}
+
+.rate-text {
+    padding-top: 3px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.rate-stars > img {
+    width: 15px;
+}
+
+/* Cards section styles */
+
+.cards {
+    display: flex;
+    padding: 60px 0 0 100px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 250px;
+    height: 130px;
+    padding: 35px 25px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.card-second {
+    transform: translateY(15px);
+}
+
+.card-third {
+    transform: translateY(30px);
+}
+
+.card-client__person {
+    display: flex;
+}
+
+.card img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card-client__info h3 {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 3px 0 4px 0;
+}
+.card-client__info small {
+    font-size: 14px;
+    color: hsl(333, 80%, 67%);
+}
+
+.card > p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+}
+.mr {
+    margin-right: 25px;
+}
+
+/* RWD yoramida loyihani Responsiv ko'rinishga olib kelamiz */
+@media only screen and (max-width: 375px) {
+    .body {
+        width: 375px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-section {
+        display: block;
+    }
+
+    .main-section__intro {
+        width: auto;
+        padding: 0;
+    }
+    
+    .main-section__intro h1 {
+        font-size: 40px;
+    }
+
+    .main-section__intro p {
+        text-align: center;
+        padding: 10px 0 0 0 ;
+    }
+
+    .main-section__intro h1,
+    .main-section__rates,
+    .card {
+        text-align: center;
+    }
+
+    .main-section__rates {
+        display: block;
+        padding-right: 0;
+        padding-top: 15px;
+    }
+
+    .second {
+        translate: 0;
+    }
+    
+    .third {
+        translate: 0;
+    }
+ 
+    .cards {
+        display: block;
+        padding: 50px 0 0 0;
+    }
+
+    .cards .card {
+        width: 82%;
+        margin: 0 auto;
+    }
+}
