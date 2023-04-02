@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'League Spartan';
-    src: url('./Fonts/./Fonts/LeagueSpartan-Black.eot');
+    src: url('./Fonts/LeagueSpartan-Black.eot');
     src: url('./Fonts/LeagueSpartan-Black.eot?#iefix') format('embedded-opentype'),
         url('./Fonts/LeagueSpartan-Black.woff2') format('woff2'),
         url('./Fonts/LeagueSpartan-Black.woff') format('woff'),
@@ -16,8 +16,8 @@
     src: url('./Fonts/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
         url('./Fonts/LeagueSpartan-Bold.woff2') format('woff2'),
         url('./Fonts/LeagueSpartan-Bold.woff') format('woff'),
-        url('./Fonts/LeagueSpartan-Bold.ttf') format('truetype');
-    font-weight: bold;
+        url('./Fonts/LeagueSpartan-Bold.ttf') format('truetype');   
+    font-weight: bold;  
     font-style: normal;
     font-display: swap;
 }
@@ -108,7 +108,7 @@
 
 /* Core styles */
 body {
-    font-family: "League Spartan";
+    font-family: "League Spartan", sa;
     font-size: 15px;
     background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
